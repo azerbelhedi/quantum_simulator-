@@ -9,9 +9,14 @@
 </head>
 <body>
     <h1>welcome to the open source simulator</h1>
-    <canvas id = "space" ></canvas>
+    <div id = "board">
+        <button onclick = "zoomIn()">+</button>
+        <button onclick = "zoomOut()">-</button>
+    </div>
+    <canvas id = "space" height = "500px" width = "1100px"  ></canvas>
     <script src = "spaceObject.js"></script>
     <script src = "universeStore.js"></script>
     <script src = "main.js"></script>
+    <script src = "board.js"></script>
 </body>
 </html>
